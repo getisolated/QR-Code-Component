@@ -7,38 +7,40 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
+    min-height:100vh; 
+    display: flex;
+    justify-content: center
 }
 
-#qr_holder {
+main {
     width: 230px;
-    height: 350px;
+    max-height: 380px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 14px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 #qr {
-    text-align: center;
     margin: 10px;
     border-radius: 10px;
     max-width: 210px ;
 }
 
 #text {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: 20px;
     text-align: center;
 }
 
-#hb {
+h1 {
     font-family: Outfit;
-    font-weight: bold;
+    font-weight: 700 bold;
+    font-size: 16px;
+    color: hsl(218, 44%, 22%);
+    margin: 0;
 }
 
-#hs {
+p {
     font-family: Outfit;
+    font-weight: 400;
     font-size: 11px;
+    margin: 0;
 }
